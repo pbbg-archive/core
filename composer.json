@@ -1,0 +1,40 @@
+{
+  "name": "pbbg/core",
+  "description": "PBBG.com Framework - Core",
+  "type": "library",
+  "homepage": "https://pbbg.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "WaveHack",
+      "email": "email@wavehack.net"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/pbbg/core/issues",
+    "source": "https://github.com/pbbg/core"
+  },
+  "require": {
+  },
+  "require-dev": {
+  },
+  "suggest": {
+  },
+  "autoload": {
+  },
+  "autoload-dev": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
