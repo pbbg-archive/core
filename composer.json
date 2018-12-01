@@ -15,6 +15,7 @@
     "source": "https://github.com/pbbg/core"
   },
   "require": {
+    "nesbot/carbon": "^2.6"
   },
   "require-dev": {
   },
