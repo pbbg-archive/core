@@ -1,2 +1,6 @@
 /.idea/
 /vendor/
+/package.lock
+/phpunit.xml
+.DS_Store
+Thumbs.db
