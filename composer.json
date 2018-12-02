@@ -16,7 +16,7 @@
   },
   "require": {
     "illuminate/support": "^5.7",
-    "nesbot/carbon": "^2.6"
+    "nesbot/carbon": "^1.26.3"
   },
   "require-dev": {
   },
