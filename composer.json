@@ -37,6 +37,7 @@
   "extra": {
     "laravel": {
       "providers": [
+        "Pbbg\\Core\\CoreServiceProvider"
       ],
       "aliases": {
       }
