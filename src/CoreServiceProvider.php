@@ -18,5 +18,16 @@ class CoreServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
+        $this->configure();
+    }
+
+    /**
+     * Setup the PBBG configuration.
+     */
+    protected function configure(): void
+    {
+        $this->mergeConfigFrom(
+            __DIR__ . '/../config/pbbg.php', 'pbbg'
+        );
     }
 }
