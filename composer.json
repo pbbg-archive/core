@@ -8,6 +8,10 @@
     {
       "name": "WaveHack",
       "email": "email@wavehack.net"
+    },
+    {
+      "name": "Zac Olden",
+      "email": "zacolden@gmail.com"
     }
   ],
   "support": {
@@ -15,8 +19,7 @@
     "source": "https://github.com/pbbg/core"
   },
   "require": {
-    "illuminate/support": "^5.7",
-    "nesbot/carbon": "^1.26.3"
+    "laravel/framework": "5.7.*"
   },
   "require-dev": {
   },
