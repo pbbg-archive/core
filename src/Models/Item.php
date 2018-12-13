@@ -12,5 +12,15 @@ class Item extends Model
      *
      * @var array
      */
-    protected $fillable = ['name'];
+    protected $fillable = [
+        'name', 'type_id',
+    ];
+
+    /**
+     * Retrieves the item type relationship.
+     */
+    public function type(): BelongsTo
+    {
+        return $this->belongsTo(ItemType::class, 'type_id', 'id');
+    }
 }
