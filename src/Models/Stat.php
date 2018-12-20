@@ -12,6 +12,6 @@ class Stat extends Model
      * @var array
      */
     protected $fillable = [
-        'key', 'initial_value',
+        'key', 'initial_value', 'enabled',
     ];
 }

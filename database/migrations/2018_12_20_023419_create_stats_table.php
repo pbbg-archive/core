@@ -17,6 +17,7 @@ class CreateStatsTable extends Migration
             $table->increments('id');
             $table->string('key');
             $table->float('initial_value');
+            $table->boolean('enabled')->default(1);
             $table->timestamps();
         });
     }
