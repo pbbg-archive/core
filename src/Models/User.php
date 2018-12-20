@@ -42,4 +42,12 @@ class User extends Authenticatable
     {
         return $this->items()->where('equipped', true);
     }
+
+    /**
+     * Retrieves the stats associated with the user.
+     */
+    public function stats(): HasMany
+    {
+        return $this->hasMany(UserStat::class);
+    }
 }
