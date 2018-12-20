@@ -17,7 +17,7 @@ class CreateUserStatsTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('user_id');
             $table->string('key');
-            $table->bigInteger('value')->default(0);
+            $table->float('value')->default(0);
             $table->timestamps();
         });
     }
